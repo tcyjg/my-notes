@@ -158,12 +158,12 @@ EXPLAIN 各字段含义：
 
 查看输出结果中的 `**type**` 和 `**key**` 列：
 
-- `**key**`：显示实际使用的索引。如果为 `NULL`，则表示未使用索引。
-- `**type**`：表示访问类型，从好到差大致是：
+- **key**：显示实际使用的索引。如果为 `NULL`，则表示未使用索引。
+- **type**：表示访问类型，从好到差大致是：
 
-- `**const**`**/**`**eq_ref**`：最优
-- `**ref**`：使用普通索引
-- `**range**`：**使用索引进行了范围扫描**（这就是使用 `>`, `<` 等操作符时希望看到的结果）
+- **const**  /eq_ref：最优
+- **ref**：使用普通索引
+- **range**：**使用索引进行了范围扫描**（这就是使用 `>`, `<` 等操作符时希望看到的结果）
 - `**index**`：全索引扫描（比全表扫描好，但也不理想）
 - `**ALL**`：全表扫描（最差）
 
@@ -201,7 +201,7 @@ EXPLAIN 各字段含义：
 不使用哪个索引：  
 `explain select * from tb_user **ignore** index(idx_user_pro) where profession="软件工程";`  
 必须使用哪个索引：  
-`explain select * from tb_user **force** index(idx_user_pro) where profession="软件工程";`
+explain select * from tb_user **force** index(idx_user_pro) where profession="软件工程";
 
 **use** 是建议，实际使用哪个索引 MySQL 还会自己权衡运行速度去更改，force就是无论如何都强制使用该索引。
 
@@ -213,7 +213,10 @@ explain 中 extra 字段含义：
 `using index condition`：查找使用了索引，但是需要回表查询数据  
 `using where; using index;`：查找使用了索引，但是需要的数据都在索引列中能找到，所以不需要回表查询
 
-如果在聚集索引中直接能找到对应的行，则直接返回行数据，只需要一次查询，哪怕是select *；如果在辅助索引中找聚集索引，如`select id, name from xxx where name='xxx';`，也只需要通过辅助索引(name)查找到对应的id，返回name和name索引对应的id即可，只需要一次查询；如果是通过辅助索引查找其他字段，则需要回表查询，如`select id, name, gender from xxx where name='xxx';`
+如果在聚集索引中直接能找到对应的行，则直接返回行数据，只需要一次查询，哪怕是select *；如果在辅助索引中找聚集索引，如
+`select id, name from xxx where name='xxx';
+也只需要通过辅助索引(name)查找到对应的id，返回name和name索引对应的id即可，只需要一次查询；如果是通过辅助索引查找其他字段，则需要回表查询，如
+`select id, name, gender from xxx where name='xxx';`
 
 所以尽量不要用`select *`，容易出现回表查询，降低效率，除非有联合索引包含了所有字段
 
@@ -229,12 +232,12 @@ explain 中 extra 字段含义：
 语法：`create index idx_xxxx on table_name(columnn(n));`  
 前缀长度：可以根据索引的选择性来决定，而选择性是指不重复的索引值（基数）和数据表的记录总数的比值，索引选择性越高则查询效率越高，唯一索引的选择性是1，这是最好的索引选择性，性能也是最好的。  
 求选择性公式：
+```sql
+select count(distinct email) / count(*) from tb_user;
+select count(distinct substring(email, 1, 5)) / count(*) from tb_user;
+-- show index 里面的sub_part可以看到接取的长度
+```
 
-|   |
-|---|
-|```<br>select count(distinct email) / count(*) from tb_user;<br>select count(distinct substring(email, 1, 5)) / count(*) from tb_user;<br>```|
-
-show index 里面的sub_part可以看到接取的长度
 
 #### 2.4.6. 单列索引&联合索引
 
@@ -460,11 +463,11 @@ InnoDB实现了以下两种类型的行锁：
 1. 共享锁(S)：允许一个事务去读一行，阻止其他事务获得相同数据集的排它锁。
 2. 排他锁(X)：允许获取排他锁的事务更新数据，阻止其他事务获得相同数据集的共享锁和排他锁。
 
-|   |   |   |
-|---|---|---|
-||**S(共享锁)**|**X(排他锁)**|
-|S(共享锁)|兼容|冲突|
-|X(排他锁)|冲突|冲突|
+|        |            |            |
+| ------ | ---------- | ---------- |
+|        | **S(共享锁)** | **X(排他锁)** |
+| S(共享锁) | 兼容         | 冲突         |
+| X(排他锁) | 冲突         | 冲突         |
 
 行锁类型：
 
@@ -707,3 +710,18 @@ select * from user where name = 'Arm';
 2. 如果是有序的主键，总是会在加在最后一个位置，判断之后，直接加页。
 
 
+#### 3. 索引失效的情况
+1. 违反最左匹配原则，模糊查询时，采用‘%xx' 或者’%xx%‘
+2. 查询条件对索引列表使用函数：slect * from student where len(student_id) = 2
+3. 查询条件对索引列表使用表达式计算：slect * from student where 1 + student_id = 2
+4. 字符串与数组类型隐式转换。（类型转换使用的cast，相当于使用了函数），在字符串与数字比较时，字符串会转换成为数字: select * from student where student_id = '123'
+5. 联合索引中最左匹配原则
+6. 在where 查询中`or`前面是索引列，后面不是索引列，也会导致索引失效
+
+#### 4. 什么时候不需要创建索引
+1. 不在where ， group by 中，查询没有使用到的，不需要建立索引
+2. 筛选度不高，数据大量重复
+3. 表数据太少
+4. 经常更新的字段。不要建立索引。比如用户余额
+
+#### 5. 索引优化的方法
