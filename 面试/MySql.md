@@ -1,5 +1,5 @@
 # 知识图谱
-![[MySql 2026-01-25 20.41.14.excalidraw]]
+![[MySql  2026-01-25 20.41.14.excalidraw]]
 ## 1. 数据库
 
 ### 1.1. 体系结构![](https://cdn.nlark.com/yuque/0/2025/png/47836706/1757854798040-c4a22b70-e07b-4854-87ec-4dde38b3d0d1.png)
@@ -737,6 +737,6 @@ select * from user where name = 'Arm';
 4. 持久性：redo log保证持久性
 
 #### 7. 数据库写入数据的整个流程
-![[MySql 2026-01-26 20.52.52.excalidraw]]
+![[MySql 读取&更新数据流程图2026-01-26 20.52.52.excalidraw]]
 
 #### 8. 
