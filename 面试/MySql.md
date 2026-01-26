@@ -731,4 +731,7 @@ select * from user where name = 'Arm';
 4. 防止索引失效
 
 #### 6. 数据库事务的特性
-
+1. 一致性： 持久性，原子性和隔离性保证一致性，
+2. 原子性：undo log 保证原子性
+3. 隔离性：MVCC(multi-version concurrent controll) 多版本并发控制 或者锁机制保证
+4. 持久性：redo log保证持久性
