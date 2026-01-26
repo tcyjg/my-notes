@@ -1,0 +1,243 @@
+{
+  "main": {
+    "id": "7478f24a852dd0ce",
+    "type": "split",
+    "children": [
+      {
+        "id": "adbf83e9327cb9d1",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "c9596d7504acae62",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "日记/2026/01/2026-01-26.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "2026-01-26"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "deaf3ca2ea6cc501",
+    "type": "split",
+    "children": [
+      {
+        "id": "4d2503e8aa27eb72",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "6782b89a1ed8858b",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "文件列表"
+            }
+          },
+          {
+            "id": "719e583497594792",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "excalidraw",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "搜索"
+            }
+          },
+          {
+            "id": "af9921a75aea0d72",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "书签"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 305.5
+  },
+  "right": {
+    "id": "8a8ef5143c2c9821",
+    "type": "split",
+    "children": [
+      {
+        "id": "b7cafa76cfcb48d1",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "ef197106e852fb84",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "JAVA/Redis.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Redis 的反向链接列表"
+            }
+          },
+          {
+            "id": "999c943d77578de3",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "JAVA/Redis.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Redis 的出链列表"
+            }
+          },
+          {
+            "id": "1b32ea3119a13737",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "标签"
+            }
+          },
+          {
+            "id": "03294ad5274d410f",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency",
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-archive",
+              "title": "添加笔记属性"
+            }
+          },
+          {
+            "id": "35428d9ee3ff33c2",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "日记/2026/01/2026-01-26.md",
+                "followCursor": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "2026-01-26 的大纲"
+            }
+          },
+          {
+            "id": "6dc19779a56a08bf",
+            "type": "leaf",
+            "state": {
+              "type": "git-view",
+              "state": {},
+              "icon": "git-pull-request",
+              "title": "Source Control"
+            }
+          }
+        ],
+        "currentTab": 5
+      }
+    ],
+    "direction": "horizontal",
+    "width": 301.5
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:打开快速切换": false,
+      "graph:查看关系图谱": false,
+      "canvas:新建白板": false,
+      "daily-notes:打开/创建今天的日记": false,
+      "templates:插入模板": false,
+      "command-palette:打开命令面板": false,
+      "bases:新建数据库": false,
+      "obsidian-excalidraw-plugin:新建绘图文件": false,
+      "obsidian-git:Open Git source control": false,
+      "templater-obsidian:Templater": false
+    }
+  },
+  "active": "c9596d7504acae62",
+  "lastOpenFiles": [
+    "Excalidraw/Drawing 2026-01-26 13.52.41.excalidraw.md",
+    "Excalidraw/Drawing 2026-01-26 13.52.45.excalidraw.md",
+    "日记/2026/01/2026-01-26.md",
+    "面试/MySql.md",
+    "面试/Redis.md",
+    "面试/RabbitMQ.md",
+    "Excalidraw/Drawing 2026-01-25 20.50.05.excalidraw.md",
+    "名词.md",
+    "面试/附件/Redis 2026-01-22 21.24.15.excalidraw.md",
+    "面试/附件/Pasted image 20260123092627.png",
+    "面试/附件/MySql 2026-01-25 20.41.14.excalidraw.md",
+    "Excalidraw",
+    "Excalidraw/Drawing 2026-01-22 21.24.41.excalidraw.md",
+    "Excalidraw/Drawing 2026-01-22 21.22.46.excalidraw.md",
+    "日记/2026/01/2026-01-25.md",
+    "项目/酒店预订系统.md",
+    "面试/附件/redis知识.canvas",
+    "日记/2026/01/2026-01-23.md",
+    "日记/2026/01/2026-01-22.md",
+    "未命名.md",
+    "白板/redis知识.canvas",
+    "面试/附件",
+    "白板/未命名.canvas",
+    "白板",
+    "项目/面向高校大学生多模块模拟面试系统.md",
+    "附件/NotebookLM Mind Map.png",
+    "附件",
+    "面试/Spring.md",
+    "面试/操作系统.md",
+    "面试/计算机网络.md",
+    "面试/设计模式.md",
+    "面试/Java基础.md",
+    "JAVA/未命名.base",
+    "日记/2026/01/2026-01-19.md",
+    "日记/2026/01/2026-01-21.md",
+    "日记/2026/01/2026-01-20.md",
+    "项目",
+    "AI/RAG",
+    "面试",
+    "AI",
+    "日记/2026/01"
+  ]
+}

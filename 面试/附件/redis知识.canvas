@@ -1,0 +1,9 @@
+{
+	"nodes":[
+		{"id":"d4b333d82bd564c1","type":"text","text":"","x":-360,"y":-40,"width":250,"height":60},
+		{"id":"c7b579a2268ae9cc","type":"text","text":"你好","x":-40,"y":-140,"width":250,"height":60}
+	],
+	"edges":[
+		{"id":"c5d847d5eef75991","fromNode":"d4b333d82bd564c1","fromSide":"right","toNode":"c7b579a2268ae9cc","toSide":"left"}
+	]
+}
