@@ -147,7 +147,7 @@ profiling 默认关闭，可以通过set语句在session/global级别开启 prof
 
 EXPLAIN 或者 DESC 命令获取 MySQL 如何执行 SELECT 语句的信息，包括在 SELECT 语句执行过程中表如何连接和连接的顺序。  
 语法：  
-# 直接在select语句之前加上关键字 explain / desc  
+ 直接在select语句之前加上关键字 explain / desc  
 EXPLAIN SELECT 字段列表 FROM 表名 HWERE 条件;
 
 EXPLAIN 各字段含义：

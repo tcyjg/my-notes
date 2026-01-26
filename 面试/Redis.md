@@ -1,4 +1,7 @@
 # 思维导图
+
+![[NotebookLM Mind Map.png]]
+
 ![[Pasted image 20260123092627.png]]
 
 
