@@ -735,3 +735,8 @@ select * from user where name = 'Arm';
 2. 原子性：undo log 保证原子性
 3. 隔离性：MVCC(multi-version concurrent controll) 多版本并发控制 或者锁机制保证
 4. 持久性：redo log保证持久性
+
+#### 7. 数据库写入数据的整个流程
+![[MySql 2026-01-26 20.52.52.excalidraw]]
+
+#### 8. 
