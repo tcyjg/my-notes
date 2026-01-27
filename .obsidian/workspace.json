@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "日记/2026/01/2026-01-26.md",
+                "file": "面试/MySql.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "2026-01-26"
+              "title": "MySql"
             }
           }
         ]
@@ -94,13 +94,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "日记/2026/01/2026-01-26.md",
+                "file": "面试/MySql.md",
                 "followCursor": true,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "2026-01-26 的大纲"
+              "title": "MySql 的大纲"
             }
           },
           {
@@ -150,8 +150,12 @@
   },
   "active": "e94b2f84f82e4462",
   "lastOpenFiles": [
-    "面试/MySql.md",
+    "面试/Redis.md",
+    "AI/RAG/Transformer.md",
     "面试/附件/MySql 读取&更新数据流程图2026-01-26 20.52.52.excalidraw.md",
+    "日记/2026/01/2026-01-27.md",
+    "日记/2026/01/2026-01-26.md",
+    "面试/MySql.md",
     "面试/附件/MySql  2026-01-25 20.41.14.excalidraw.md",
     "Excalidraw/Drawing 2026-01-26 19.24.59.excalidraw.md",
     "面试/附件/Redis 2026-01-22 21.24.15.excalidraw.md",
@@ -165,7 +169,6 @@
     "项目/酒店预订系统.md",
     "项目/面向高校大学生多模块模拟面试系统.md",
     "未命名.md",
-    "面试/Redis.md",
     "分享资源文章/obsidian 配置git插件.md",
     "分享资源文章",
     "面试/RabbitMQ.md",
@@ -174,7 +177,6 @@
     "Excalidraw/Drawing 2026-01-26 13.52.45.excalidraw.md",
     "Excalidraw/Drawing 2026-01-26 13.52.41.excalidraw.md",
     "Excalidraw/Drawing 2026-01-25 20.50.05.excalidraw.md",
-    "日记/2026/01/2026-01-26.md",
     "Excalidraw/Drawing 2026-01-22 21.24.41.excalidraw.md",
     "Excalidraw/Drawing 2026-01-22 21.22.46.excalidraw.md",
     "日记/2026/01/2026-01-25.md",
@@ -186,7 +188,6 @@
     "白板/未命名.canvas",
     "白板",
     "附件",
-    "面试/Spring.md",
     "JAVA/未命名.base",
     "项目",
     "AI/RAG",
