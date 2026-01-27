@@ -769,5 +769,7 @@ extra：显示的结果
 	Using file_sort: group by 操作时，但是无法依赖索引排序，使用文件排序，效率极低
 	Using temporary:使用临时表，效率低
 	Using index: 使用了覆盖索引，防止回表
+#### 10. 查询很慢，优化策略
+
 
 
