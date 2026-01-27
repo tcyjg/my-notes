@@ -756,3 +756,18 @@ select * from user where name = 'Arm';
 3. InnoDB 写 redo log（commit）
 保证 redo log 和 binlog 的一致性。
 
+#### 9.mysql中使用explain
+目的：分析sql的执行计划（索引，索引覆盖，外部排序）
+type:描述扫描方式
+1. ALL（全表扫描）
+2. index(全索引扫描)
+3. range(索引范围扫描)
+4. ref（非唯一索引扫描）
+5. eq_ref(唯一索引扫描）：多表联查时
+6. const（唯一索引扫描）：与常量比较
+extra：显示的结果 
+	Using file_sort: group by 操作时，但是无法依赖索引排序，使用文件排序，效率极低
+	Using temporary:使用临时表，效率低
+	Using index: 使用了覆盖索引，防止回表
+
+
