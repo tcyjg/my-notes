@@ -175,12 +175,11 @@
               "title": "标签"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
-    "width": 328.5
+    "width": 337.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -197,7 +196,7 @@
       "media-extended:Open external media": false
     }
   },
-  "active": "6dc19779a56a08bf",
+  "active": "e94b2f84f82e4462",
   "lastOpenFiles": [
     "面试/附件/Pasted image 20260128205011.png",
     "日记/2026/01/2026-01-28.md",
