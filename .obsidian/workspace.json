@@ -13,15 +13,28 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Idea/测评扩展功能.md",
+                "file": "Idea/同一产品测评扩展功能.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "测评扩展功能"
+              "title": "同一产品测评扩展功能"
+            }
+          },
+          {
+            "id": "88e934db6c866d72",
+            "type": "leaf",
+            "state": {
+              "type": "excalidraw",
+              "state": {
+                "file": "Idea/附件/同一产品测评扩展功能 2026-02-08 22.16.51.excalidraw.md"
+              },
+              "icon": "excalidraw-icon",
+              "title": "同一产品测评扩展功能 2026-02-08 22.16.51.excalidraw"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -94,13 +107,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Idea/测评扩展功能.md",
+                "file": "Idea/附件/同一产品测评扩展功能 2026-02-08 22.16.51.excalidraw.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "测评扩展功能 的大纲"
+              "title": "同一产品测评扩展功能 2026-02-08 22.16.51.excalidraw 的大纲"
             }
           },
           {
@@ -196,10 +209,13 @@
       "media-extended:Open external media": false
     }
   },
-  "active": "e94b2f84f82e4462",
+  "active": "88e934db6c866d72",
   "lastOpenFiles": [
+    "Idea/同一产品测评扩展功能.md",
+    "Idea/附件/同一产品测评扩展功能 2026-02-08 22.16.51.excalidraw.md",
+    "Idea/附件",
+    "Excalidraw/Drawing 2026-02-08 22.16.19.excalidraw.md",
     "名词.md",
-    "Idea/测评扩展功能.md",
     "面试/操作系统.md",
     "Idea",
     "面试/计算机网络.md",
@@ -235,8 +251,6 @@
     "面试/附件/Pasted image 20260123092627.png",
     "面试/附件/NotebookLM Mind Map 1.png",
     "Excalidraw",
-    "未命名.md",
-    "分享资源文章/obsidian 配置git插件.md",
     "分享资源文章",
     "面试/附件/redis知识.canvas",
     "白板/redis知识.canvas",
@@ -245,7 +259,6 @@
     "白板",
     "附件",
     "JAVA/未命名.base",
-    "项目",
-    "AI/RAG"
+    "项目"
   ]
 }
