@@ -81,12 +81,14 @@
             "id": "ad84acac0213a5a5",
             "type": "leaf",
             "state": {
-              "type": "excalidraw",
+              "type": "markdown",
               "state": {
-                "file": "Idea/附件/同一产品测评扩展功能 2026-02-08 22.16.51.excalidraw.md"
+                "file": "Idea/同一类型产品对比 建议.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "excalidraw-icon",
-              "title": "同一产品测评扩展功能 2026-02-08 22.16.51.excalidraw"
+              "icon": "lucide-file",
+              "title": "同一类型产品对比 建议"
             }
           },
           {
@@ -175,13 +177,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Idea/附件/同一产品测评扩展功能 2026-02-08 22.16.51.excalidraw.md",
+                "file": "Idea/同一类型产品对比 建议.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "同一产品测评扩展功能 2026-02-08 22.16.51.excalidraw 的大纲"
+              "title": "同一类型产品对比 建议 的大纲"
             }
           },
           {
@@ -279,8 +281,8 @@
   },
   "active": "ad84acac0213a5a5",
   "lastOpenFiles": [
-    "Idea/同一类型产品对比 建议.md",
     "Idea/附件/同一产品测评扩展功能 2026-02-08 22.16.51.excalidraw.md",
+    "Idea/同一类型产品对比 建议.md",
     "Idea/附件",
     "Excalidraw/Drawing 2026-02-08 22.16.19.excalidraw.md",
     "名词.md",
