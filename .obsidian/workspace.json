@@ -92,6 +92,18 @@
             }
           },
           {
+            "id": "9ab7c8e8235aa688",
+            "type": "leaf",
+            "state": {
+              "type": "excalidraw",
+              "state": {
+                "file": "Idea/附件/同一产品测评扩展功能 2026-02-08 22.16.51.excalidraw.md"
+              },
+              "icon": "excalidraw-icon",
+              "title": "同一产品测评扩展功能 2026-02-08 22.16.51.excalidraw"
+            }
+          },
+          {
             "id": "88e934db6c866d72",
             "type": "leaf",
             "state": {
@@ -104,7 +116,7 @@
             }
           }
         ],
-        "currentTab": 5
+        "currentTab": 6
       }
     ],
     "direction": "vertical"
@@ -177,13 +189,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Idea/同一类型产品对比 建议.md",
+                "file": "Idea/附件/同一产品测评扩展功能 2026-02-08 22.16.51.excalidraw.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "同一类型产品对比 建议 的大纲"
+              "title": "同一产品测评扩展功能 2026-02-08 22.16.51.excalidraw 的大纲"
             }
           },
           {
@@ -279,10 +291,10 @@
       "media-extended:Open external media": false
     }
   },
-  "active": "ad84acac0213a5a5",
+  "active": "9ab7c8e8235aa688",
   "lastOpenFiles": [
-    "Idea/附件/同一产品测评扩展功能 2026-02-08 22.16.51.excalidraw.md",
     "Idea/同一类型产品对比 建议.md",
+    "Idea/附件/同一产品测评扩展功能 2026-02-08 22.16.51.excalidraw.md",
     "Idea/附件",
     "Excalidraw/Drawing 2026-02-08 22.16.19.excalidraw.md",
     "名词.md",
