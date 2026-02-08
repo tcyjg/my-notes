@@ -33,8 +33,7 @@
               "title": "同一产品测评扩展功能 2026-02-08 22.16.51.excalidraw"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -107,13 +106,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Idea/附件/同一产品测评扩展功能 2026-02-08 22.16.51.excalidraw.md",
+                "file": "Idea/同一产品测评扩展功能.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "同一产品测评扩展功能 2026-02-08 22.16.51.excalidraw 的大纲"
+              "title": "同一产品测评扩展功能 的大纲"
             }
           },
           {
@@ -192,7 +191,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 337.5
+    "width": 280.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -209,10 +208,10 @@
       "media-extended:Open external media": false
     }
   },
-  "active": "88e934db6c866d72",
+  "active": "e94b2f84f82e4462",
   "lastOpenFiles": [
-    "Idea/同一产品测评扩展功能.md",
     "Idea/附件/同一产品测评扩展功能 2026-02-08 22.16.51.excalidraw.md",
+    "Idea/同一产品测评扩展功能.md",
     "Idea/附件",
     "Excalidraw/Drawing 2026-02-08 22.16.19.excalidraw.md",
     "名词.md",
