@@ -13,15 +13,28 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "分享资源文章/堵塞队列.md",
+                "file": "项目/12306系统.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "堵塞队列"
+              "title": "12306系统"
+            }
+          },
+          {
+            "id": "e2842c1cb88e347d",
+            "type": "leaf",
+            "state": {
+              "type": "excalidraw",
+              "state": {
+                "file": "Excalidraw/Drawing 2026-02-20 16.49.44.excalidraw.md"
+              },
+              "icon": "excalidraw-icon",
+              "title": "Drawing 2026-02-20 16.49.44.excalidraw"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -94,13 +107,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "分享资源文章/堵塞队列.md",
+                "file": "Excalidraw/Drawing 2026-02-20 16.49.44.excalidraw.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "堵塞队列 的大纲"
+              "title": "Drawing 2026-02-20 16.49.44.excalidraw 的大纲"
             }
           },
           {
@@ -196,11 +209,15 @@
       "media-extended:Open external media": false
     }
   },
-  "active": "749bf57574000f30",
+  "active": "e2842c1cb88e347d",
   "lastOpenFiles": [
+    "项目/12306系统.md",
+    "Excalidraw/Drawing 2026-02-20 16.49.44.excalidraw.md",
+    "项目/附件/12306系统 2026-02-20 16.49.00.excalidraw.md",
+    "项目/附件",
+    "分享资源文章/堵塞队列.md",
     "分享资源文章/obsidian 配置git插件.md",
     "日记/2026/02/2026-02-19.md",
-    "分享资源文章/堵塞队列.md",
     "面试/Java基础.md",
     "面试/Spring.md",
     "面试/设计模式.md",
@@ -210,7 +227,6 @@
     "面试/Spring MVC.md",
     "面试/Redis.md",
     "面试/RabbitMQ.md",
-    "项目/12306系统.md",
     "日记/2026/02/2026-02-18.md",
     "日记/2026/02/2026-02-12.md",
     "日记/2026/01/2026-01-28.md",
@@ -229,7 +245,6 @@
     "Excalidraw/Drawing 2026-02-08 22.16.19.excalidraw.md",
     "Idea",
     "面试/附件/Pasted image 20260129200539.png",
-    "日记/2026/01/2026-01-29.md",
     "面试/附件/Pasted image 20260128205011.png",
     "面试/附件/Pasted image 20260128114019.png",
     "面试/附件/Pasted image 20260128113938.png",
@@ -238,14 +253,12 @@
     "面试/附件/Pasted image 20260128102826.png",
     "面试/附件/Pasted image 20260128102641.png",
     "项目/未命名.base",
-    "日记/2026/01/2026-01-19.md",
     "Excalidraw",
     "分享资源文章",
     "面试/附件/redis知识.canvas",
     "白板/redis知识.canvas",
     "面试/附件",
     "白板/未命名.canvas",
-    "白板",
-    "附件"
+    "白板"
   ]
 }
